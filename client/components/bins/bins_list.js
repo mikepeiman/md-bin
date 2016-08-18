@@ -16,3 +16,4 @@ export default createContainer(() => {
 
 	return { bins: Bins.find({}).fetch() };
 }, BinsList);
+

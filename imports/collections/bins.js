@@ -7,7 +7,7 @@ Meteor.methods({
 			createdAt: new Date(),
 			content: '',
 			sharedWith: [],
-			ownerID: this.userID
+			ownerId: this.userId
 		});
 	}
 });
