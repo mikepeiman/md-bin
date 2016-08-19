@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Accounts from './accounts';
+import { Link } from 'react-router';
 
 class Header extends Component {
 	onBinClick(event) {
@@ -11,7 +12,7 @@ class Header extends Component {
 		return (
 			<nav className="nav navbar-default">
 				<div>
-					<a className="navbar-brand">MDBin</a>
+					<Link to="/" className="navbar-brand">MDBin</Link>
 				</div>
 				<ul className="nav navbar-nav">
 					<li><Accounts /></li>
